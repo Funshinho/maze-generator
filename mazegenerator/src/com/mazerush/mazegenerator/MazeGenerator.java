@@ -8,7 +8,7 @@ import java.util.Random;
 import com.mazerush.mazegenerator.util.Maze;
 
 /**
- * This class describes the maze generator using the reverse backtracking
+ * This class describes the maze generator using the recursive backtracking
  * algorithm
  * 
  * @author funshinho

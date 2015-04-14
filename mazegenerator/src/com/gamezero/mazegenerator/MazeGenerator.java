@@ -61,13 +61,13 @@ public class MazeGenerator {
 		Random r = new Random();
 		int startX = r.nextInt(width);
 		int startY = r.nextInt(height);
-		carve(startX, startY, maze);
+		buildMaze(startX, startY, maze);
 		
 		return maze;
 	}
 
 	/**
-	 * Carving walls from the given starting point
+	 * Build maze from the given starting point
 	 * 
 	 * @param x
 	 *            the x position
@@ -76,7 +76,7 @@ public class MazeGenerator {
 	 * @param maze
 	 *            the maze
 	 */
-	private void carve(int x, int y, Maze maze) {
+	private void buildMaze(int x, int y, Maze maze) {
 
 		// The cell is now visited
 		maze.setVisited(x, y, true);
@@ -117,7 +117,7 @@ public class MazeGenerator {
 					&& !maze.isVisited(newX, newY)) {
 
 				breakWall(x, y, dir, maze);
-				carve(newX, newY, maze);
+				buildMaze(newX, newY, maze);
 
 			}
 		}

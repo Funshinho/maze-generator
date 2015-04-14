@@ -1,11 +1,11 @@
-package com.mazerush.mazegenerator;
+package com.gamezero.mazegenerator;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import com.mazerush.mazegenerator.util.Maze;
+import com.gamezero.mazegenerator.util.Maze;
 
 /**
  * This class describes the maze generator using the recursive backtracking

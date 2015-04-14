@@ -1,6 +1,6 @@
-package com.mazerush.mazegenerator;
+package com.gamezero.mazegenerator;
 
-import com.mazerush.mazegenerator.util.Maze;
+import com.gamezero.mazegenerator.util.Maze;
 
 /**
  * Test class for the maze generator

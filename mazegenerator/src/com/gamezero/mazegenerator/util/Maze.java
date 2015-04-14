@@ -1,4 +1,4 @@
-package com.mazerush.mazegenerator.util;
+package com.gamezero.mazegenerator.util;
 
 import java.util.Arrays;
 
